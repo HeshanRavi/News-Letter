@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    font-style: bold;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.mainb{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1 {
+    color: #333;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:50px;
+    text-align: left;
+    margin-top: 10px;
+}
+h2 {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    
+    margin-top: 10px;
+}
+
+.h2sns {
+    font-family: 'Bebas Neue', cursive;
+  
+}
+
+.franks{
+    font-size: 20px;
+    font-family: "franklin gothic medium", "arial narrow", Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.photologodoc {
+    width: 50%;
+   
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: 40% , 40%;
+    margin-top: -90px
+}
+
+.fanimglogdoc{
+    width: 80%;
+    margin-top: 20px;
+    margin-left: auto;
+height: 50%;
+     display: flex;
+   padding-top: 20px;
+    margin-top: -90px;
+  margin-bottom: -80px;
+}
+ 
+
+.logo {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+     
+}
+
+
+.logodoc{
+    width: 90%;
+    margin-top: 70px;
+    margin-left: -20px;
+
+    display: absolute;
+    margin-top: -90px
+}
+
+.whysjoinds{
+   font-size: 23px;
+   
+}
+
+.headblock {
+    background-color: #2596f3;
+    color: #ffffff;
+    padding: 1rem;
+     margin-right: -50px;
+    text-align: left;
+    
+    border-radius: 0px 0px 0px 10px;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.leftimgdoclogs {
+    width: 50%;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: 40% , 40%;
+    margin-top: -90px
+}
+.leftimg {
+    width: 100%;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: 40% , 40%;
+    margin-top: -90px
+}
+.below-fans-choice {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background: linear-gradient(to right, rgba(37, 150, 243, 0.5), transparent);
+}
+
+.below-fans-choice img {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.topbusinsss{
+    width: 200%;
+}
+
+.below-fans-choice .text {
+    flex: 2;
+}
+
+.top-business {
+    text-align: center;
+    margin-top: 40px;
+    
+   
+}
+.top-businesstextss{
+    font-size: 30px;
+    text-align: center;
+    color: red;
+}
+
+.logosandssa{
+    display: absolute;
+    top: 0px;
+}
+.top-business h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.business-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    gap: 20px; /* Add margin gaps between images */
+}
+
+.business-images img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+.whydabssans{
+    width: 30%;
+  
+  
+}
+
+.sgins{
+    font-size: 30px;
+}
+
+.text{
+    width: 50%;
+}
+.bottomslogos {
+    width: 50%;
+    height: 16%; /* Only top half should be visible */
+    overflow: hidden; /* Hide the bottom half */
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    bottom: 10;
+    display: block;
+    object-fit: cover;
+    object-position: top;
+    margin-top: -100px;
+    z-index: -1;
+}
+
+.business-images .text {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.why-fans-choice {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    margin: 40px auto;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.why-fans-choice img {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.why-fans-choice .text {
+    flex: 2;
+}
+
+.why-fans-choice .text h2 {
+    background-color: #003366; /* Dark blue background */
+    color: #ffffff; /* White text */
+    padding: 10px;
+    z-index: 10;
+}
+
+.why-fans-choice .text p {
+    background-color: transparent; /* Transparent background */
+    color: #000000; /* Black text */
+}
+
+.bg-overlay {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 1000px;
+    left: 20%;
+    z-index: -200;
+}
+
+.sandss{
+    font-size: 30px;
+    margin-bottom: -40px;
+}
+div::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.contact-social-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    width: 100%;
+    gap: 30px;
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.contact-info li {
+    background-color: #003366;
+    color: white;
+    padding: 8px 15px;
+    margin: 8px 0;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.social-icons {
+    background-color: #003366;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons img {
+    width: 25px;
+    height: 25px;
+   
+}s
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+@font-face {
+    font-family: 'Franklin Gothic Demi';
+    src: url('fonts/FranklinGothicDemi.eot'); /* IE9 Compat Modes */
+    src: url('fonts/FranklinGothicDemi.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/FranklinGothicDemi.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/FranklinGothicDemi.woff') format('woff'), /* Pretty Modern Browsers */
+         url('fonts/FranklinGothicDemi.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/FranklinGothicDemi.svg#FranklinGothicDemi') format('svg'); /* Legacy iOS */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Add these media queries at the end of the file */
+@media screen and (max-width: 768px) {
+    .mainb {
+        width: 90%;
+    }
+    
+    .business-images {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .below-fans-choice,
+    .why-fans-choice {
+        flex-direction: column;
+    }
+    
+    .logodoc {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .top-businesstextss {
+        font-size: 24px;
+    }
+    
+    .photologodoc {
+        margin-top: -45px;
+    }
+    
+    .leftimgdoclogs {
+        width: 100%;
+    }
+}
+
+.below-fans-choice ul li,
+.why-fans-choice ul li {
+    font-family: 'Oswald', 'Franklin Gothic Medium', Arial, sans-serif;
+    font-size: 18px;
+    margin: 8px 0;
+}
